@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/notie_nav_graph"
+    app:startDestination="@id/notie_sign_in">
+
+    <fragment
+        android:id="@+id/notie_home"
+        android:name="com.github.ilyadreamix.notie.home.HomeFragment" />
+
+    <fragment
+        android:id="@+id/notie_note"
+        android:name="com.github.ilyadreamix.notie.note.NoteFragment" />
+
+    <fragment
+        android:id="@+id/notie_user"
+        android:name="com.github.ilyadreamix.notie.user.UserFragment" />
+
+    <fragment
+        android:id="@+id/notie_sign_in"
+        android:name="com.github.ilyadreamix.notie.user.signin.SignInFragment" />
+
+    <fragment
+        android:id="@+id/notie_settings"
+        android:name="com.github.ilyadreamix.notie.settings.SettingsFragment" />
+
+</navigation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notie</string>
+    <string name="app_description">Your personal notebook</string>
+    <string name="google_sign_in_web_client_id">748812788373-bkts3h7m7g17vu75eqn0uniug39s7tk4.apps.googleusercontent.com</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="menu">Menu</string>
+    <string name="sign_in_agree">By clicking on the login button I agree to the terms of usage and privacy policy</string>
+    <string name="sign_in_cancelled">Sign in cancelled! Please try again</string>
+    <string name="sign_in_google_error">Google sign in error has occurred!</string>
+    <string name="ok">OK!</string>
+</resources>

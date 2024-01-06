@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lottie_notie_size">240dp</dimen>
+    <dimen name="sign_in_app_label_size">36sp</dimen>
+    <dimen name="sign_in_app_description_size">16sp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="medium_action_corner_radius">12dp</dimen>
+    <dimen name="medium_action_outer_spacing">8dp</dimen>
+    <dimen name="medium_text_size">14sp</dimen>
+    <dimen name="big_button_height">56dp</dimen>
+    <dimen name="loading_dialog_size">86dp</dimen>
+    <dimen name="loading_dialog_corners">24dp</dimen>
+    <dimen name="medium_content_padding">8dp</dimen>
+    <dimen name="dialog_blur_radius">8dp</dimen>
+    <dimen name="dialog_content_padding">16dp</dimen>
+</resources>
