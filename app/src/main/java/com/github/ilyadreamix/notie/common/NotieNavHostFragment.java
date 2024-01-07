@@ -8,6 +8,7 @@ public class NotieNavHostFragment extends NavHostFragment {
     @Override
     protected void onCreateNavHostController(@NonNull NavHostController navHostController) {
         super.onCreateNavHostController(navHostController);
-
+        NotieFragmentNavigator navigator = new NotieFragmentNavigator(requireContext(), getChildFragmentManager(), getId());
+        navHostController.getNavigatorProvider().addNavigator(navigator);
     }
 }

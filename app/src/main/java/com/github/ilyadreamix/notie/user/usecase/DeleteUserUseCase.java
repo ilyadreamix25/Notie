@@ -1,6 +1,6 @@
 package com.github.ilyadreamix.notie.user.usecase;
 
-import com.github.ilyadreamix.notie.common.data.Result;
+import com.github.ilyadreamix.notie.common.data.NotieResult;
 import com.github.ilyadreamix.notie.user.repository.UserRepository;
 import com.google.android.gms.tasks.Task;
 
@@ -15,7 +15,7 @@ public class DeleteUserUseCase {
         this.repository = repository;
     }
 
-    public Task<Result<String>> invoke(String id) {
+    public Task<NotieResult<String>> invoke(String id) {
         return repository.deleteUser(id);
     }
 }

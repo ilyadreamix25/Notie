@@ -11,6 +11,20 @@
     <dimen name="loading_dialog_size">86dp</dimen>
     <dimen name="loading_dialog_corners">24dp</dimen>
     <dimen name="medium_content_padding">8dp</dimen>
-    <dimen name="dialog_blur_radius">8dp</dimen>
     <dimen name="dialog_content_padding">16dp</dimen>
+    <dimen name="toolbar_logo_height">28dp</dimen>
+    <dimen name="toolbar_padding">12dp</dimen>
+    <dimen name="toolbar_icon_size">24dp</dimen>
+    <dimen name="toolbar_height">64dp</dimen>
+    <dimen name="toolbar_logo_text_spacing">12dp</dimen>
+    <dimen name="toolbar_text_size">18sp</dimen>
+    <dimen name="lottie_label_text_size">16sp</dimen>
+    <dimen name="home_content_empty_lottie_width">240dp</dimen>
+    <dimen name="home_content_empty_lottie_spacing">36dp</dimen>
+    <dimen name="home_search_bar_elevation">3dp</dimen>
+    <dimen name="home_search_bar_margin">16dp</dimen>
+    <dimen name="home_search_bar_corners">12dp</dimen>
+    <dimen name="home_search_bar_padding_horizontal">12dp</dimen>
+    <dimen name="home_search_bar_padding_vertical">8dp</dimen>
+    <dimen name="home_search_bar_icon_padding">8dp</dimen>
 </resources>

@@ -1,6 +1,6 @@
 package com.github.ilyadreamix.notie.user.usecase;
 
-import com.github.ilyadreamix.notie.common.data.Result;
+import com.github.ilyadreamix.notie.common.data.NotieResult;
 import com.github.ilyadreamix.notie.user.data.UserEntity;
 import com.github.ilyadreamix.notie.user.repository.UserRepository;
 import com.google.android.gms.tasks.Task;
@@ -16,7 +16,7 @@ public class GetUserByIdUseCase {
         this.repository = repository;
     }
 
-    public Task<Result<UserEntity>> invoke(String id) {
+    public Task<NotieResult<UserEntity>> invoke(String id) {
         return repository.getUserById(id);
     }
 }

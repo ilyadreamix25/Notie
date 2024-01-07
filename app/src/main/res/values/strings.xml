@@ -6,7 +6,14 @@
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="menu">Menu</string>
     <string name="sign_in_agree">By clicking on the login button I agree to the terms of usage and privacy policy</string>
-    <string name="sign_in_cancelled">Sign in cancelled! Please try again</string>
-    <string name="sign_in_google_error">Google sign in error has occurred!</string>
+    <string name="sign_in_google_error">Google sign in error has occurred.\nPlease try again!</string>tring>
+    <string name="sign_in_check_user_error">Cannot check user.\nPlease try again!</string>
+    <string name="sign_in_cannot_create_user">Cannot create user at the moment.\nPlease try again!</string>
+    <string name="splash_cannot_find_user">Cannot find user!\nPlease sign in again</string>
+    <string name="splash_cannot_connects_server">Cannot connect to server!\nPlease sign in again</string>
     <string name="ok">OK!</string>
+    <string name="unknown_error">Unknown error!</string>
+    <string name="create">Create</string>
+    <string name="no_notes">You don\'t currently have any notes!\nStart by creating a new one</string>
+    <string name="search">Search</string>
 </resources>

@@ -13,14 +13,41 @@
     </style>
 
     <style name="Theme.Notie" parent="Base.Theme.Notie">
+        <item name="elevationOverlayEnabled">false</item>
         <item name="materialButtonStyle">@style/Theme.Notie.Button</item>
+        <item name="appBarLayoutStyle">@style/Theme.Notie.AppBar</item>
+        <item name="toolbarStyle">@style/Theme.Notie.Toolbar</item>
+        <item name="extendedFloatingActionButtonStyle">@style/Theme.Notie.ExtendedFloatingActionButton</item>
     </style>
 
     <style name="Theme.Notie.Button" parent="Widget.MaterialComponents.Button">
-        <item name="android:stateListAnimator">@null</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">?colorOnPrimary</item>
-        <item name="iconTint">?colorOnPrimary</item>
+        <item name="android:textColor">@color/notie_button_content_color</item>
+        <item name="iconTint">@color/notie_button_content_color</item>
+    </style>
+
+    <style name="NotieTextAppearance">
+        <item name="android:fontFamily">@font/notie</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Theme.Notie.AppBar" parent="Widget.Design.AppBarLayout">
+        <item name="android:background">?colorSurface</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Theme.Notie.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/NotieTextAppearance</item>
+    </style>
+    
+    <style name="Theme.Notie.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="backgroundTint">?colorPrimary</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="iconTint">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="elevation">0dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:minHeight">56dp</item>
     </style>
 
 </resources>

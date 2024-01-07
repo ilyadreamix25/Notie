@@ -7,9 +7,10 @@ androidx-navigation = "2.7.6"
 dagger-hilt = "2.50"
 firebase = "32.7.0"
 firebase-crashlytics = "2.9.9"
-google-services = "4.4.0"
+google-gson = "2.10.1"
+google-material = "1.4.0"
 google-playServices-auth = "20.7.0"
-material = "1.4.0"
+google-services = "4.4.0"
 lottie = "6.3.0"
 
 [libraries]
@@ -25,12 +26,14 @@ firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "fir
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
 firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
 firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
-google-playServices-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "google-services" }
-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+google-gson = { module = "com.google.code.gson:gson", version.ref = "google-gson" }
+google-material = { group = "com.google.android.material", name = "material", version.ref = "google-material" }
+google-playServices-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "google-playServices-auth" }
 lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-application" }
+androidx-navigation-safeArgs = { id = "androidx.navigation.safeargs", version.ref = "androidx-navigation" }
 dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "dagger-hilt" }
 firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics" }
 google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }

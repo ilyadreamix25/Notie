@@ -6,10 +6,11 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.Window;
 import android.widget.Toast;
 
-import androidx.annotation.IntegerRes;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import com.github.ilyadreamix.notie.R;
 
@@ -50,5 +51,9 @@ public abstract class NotieFragment extends Fragment {
 
     protected void showToast(String text) {
         Toast.makeText(requireContext(), text, Toast.LENGTH_SHORT).show();
+    }
+
+    protected NavController findNavController() {
+        return Navigation.findNavController(requireActivity(), R.id.notie_nav_host_fragment);
     }
 }

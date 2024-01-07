@@ -2,11 +2,35 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/notie_nav_graph"
-    app:startDestination="@id/notie_sign_in">
+    app:startDestination="@id/notie_splash">
+
+    <fragment
+        android:id="@+id/notie_splash"
+        android:name="com.github.ilyadreamix.notie.splash.SplashFragment">
+
+        <action
+            android:id="@+id/splash_to_sign_in"
+            app:destination="@id/notie_user_sign_in"
+            app:popUpTo="@id/notie_splash"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/splash_to_home"
+            app:destination="@id/notie_home"
+            app:popUpTo="@id/notie_splash"
+            app:popUpToInclusive="true" />
+
+    </fragment>
 
     <fragment
         android:id="@+id/notie_home"
-        android:name="com.github.ilyadreamix.notie.home.HomeFragment" />
+        android:name="com.github.ilyadreamix.notie.home.HomeFragment">
+
+        <action
+            android:id="@+id/home_to_note"
+            app:destination="@id/notie_note" />
+
+    </fragment>
 
     <fragment
         android:id="@+id/notie_note"
@@ -17,8 +41,16 @@
         android:name="com.github.ilyadreamix.notie.user.UserFragment" />
 
     <fragment
-        android:id="@+id/notie_sign_in"
-        android:name="com.github.ilyadreamix.notie.user.signin.SignInFragment" />
+        android:id="@+id/notie_user_sign_in"
+        android:name="com.github.ilyadreamix.notie.user.signin.UserSignInFragment">
+
+        <action
+            android:id="@+id/user_sign_in_to_home"
+            app:destination="@id/notie_home"
+            app:popUpTo="@id/notie_user_sign_in"
+            app:popUpToInclusive="true" />
+
+    </fragment>
 
     <fragment
         android:id="@+id/notie_settings"

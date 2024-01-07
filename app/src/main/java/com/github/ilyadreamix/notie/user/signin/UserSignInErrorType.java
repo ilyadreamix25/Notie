@@ -1,7 +1,6 @@
 package com.github.ilyadreamix.notie.user.signin;
 
-public enum SignInErrorType {
+public enum UserSignInErrorType {
+    CannotCheckUser,
     CannotCreateUser,
-    UserAlreadyExists,
-    GoogleSignInError
 }

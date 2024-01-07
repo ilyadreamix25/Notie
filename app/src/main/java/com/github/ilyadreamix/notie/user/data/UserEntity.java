@@ -1,13 +1,22 @@
 package com.github.ilyadreamix.notie.user.data;
 
 import com.google.android.gms.auth.api.identity.SignInCredential;
+import com.google.gson.annotations.SerializedName;
 
 import java.util.UUID;
 
 public class UserEntity {
+
+    @SerializedName("id")
     private String id;
+
+    @SerializedName("email")
     private String email;
+
+    @SerializedName("name")
     private String name;
+
+    @SerializedName("createdAt")
     private long createdAt;
 
     public UserEntity() {
